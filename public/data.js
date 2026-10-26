@@ -37,13 +37,7 @@ export const skills = [
   },
 ];
 
-export const careers = [
-  {
-    title: "바른피앤티",
-    date: "2024.08 ~ 2025.12",
-    about: "BTL Marketer",
-  },
-];
+export const careers = [];
 
 export const activities = [
   {
@@ -54,21 +48,6 @@ export const activities = [
 ];
 
 export const projects = [
-  {
-    title: "Pokemon LLM 파티 분석기",
-    date: "2026.05 (1명)",
-    skills: ["Python", "Google Gemini", "PokeAPI", "Monte Carlo Simulation"],
-    github: "https://github.com/lian-rla/pokemonLLM",
-    about: "포켓몬 챔피언스 싱글배틀 파티를 LLM과 몬테카를로 시뮬레이션으로 분석하는 도구",
-    contents: [
-      "몬테카를로 시뮬레이션으로 56개 랭킹 파티 대상 승률 자동 계산",
-      "턴제 배틀 규칙 기반 전투 엔진 구현 (메가진화, 상태이상, 급소 포함)",
-      "6픽 3선 시스템: 상대 미리보기 기반 최적 포켓몬 자동 선택",
-      "한국어/영어 이중 언어 입력 지원",
-      "Google Gemini AI로 파티 강점/약점 분석 리포트 자동 생성",
-      "smartnuo API + PokeAPI 기반 포켓몬 데이터베이스 자동 구축",
-    ],
-  },
   {
     title: "행동신경과학 영상 분석 도구",
     date: "2025.12 (1명)",
